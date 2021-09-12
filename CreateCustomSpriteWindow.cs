@@ -165,13 +165,6 @@ public class CreateCustomSpriteWindow : EditorWindow {
 
     }
 
-    private static void GenerateSpriteBorder(Sprite sprite, int border) {
-        Debug.Log(border);
-        sprite.border.Set(border, border, border, border);
-        Debug.Log(sprite.border);
-        AssetDatabase.Refresh();
-    }
-
     private static string WriteDataToCurrentFolderWithName(byte[] data, string name, string suffix) {
         var path = Path.Combine(GetSelectedProjectFolderPath(), name);
         if (File.Exists(path + suffix)) {
@@ -199,6 +192,7 @@ public class CreateCustomSpriteWindow : EditorWindow {
         Debug.Log("Sprite created at: " + path);
     }
 
+    // TODO: Seems to not work
     // https://forum.unity.com/threads/how-to-get-currently-selected-folder-for-putting-new-asset-into.81359/
     private static string GetSelectedProjectFolderPath() {
         string path = "Assets";
