@@ -10,5 +10,5 @@ A simple custom sprite creator, currently able to create these sprites:
 4. Click `Generate` to create a sprite. It will be created under `Assets` root folder or currently selected folder.
 ## TODO (Not Implemented Yet)
 1. Create more shapes, e.g. hollow/solid/other polygons.
-2. Generate sprite asset appropriately, i.e. generate it in the currently selected folder in the Editor window. Sometimes this may not work, you might have to find in other asset folders to find the created sprite.
+2. Generate sprite asset appropriately, i.e. generate it in the currently selected folder in the Editor window. Sometimes this may not work, you might have to find in other asset folders to find the created sprite. An Editor log will show where the file is.
 3. Enhance Editor UI.
