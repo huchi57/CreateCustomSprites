@@ -7,8 +7,8 @@ A simple custom sprite creator, currently able to create these sprites:
 2. `Custom` > `Create Custom Sprites`.
 3. Modify the parameters.
 ![The window in use in Unity](/CreateCustomSpritesWindow_Readme.png)
-4. Click `Generate` to create a sprite. It will be created under `Assets` root folder.
+4. Click `Generate` to create a sprite. It will be created under `Assets` root folder or currently selected folder.
 ## TODO (Not Implemented Yet)
 1. Create more shapes, e.g. hollow/solid/other polygons.
-2. Generate sprite asset appropriately, i.e. generate it in the currently selected folder in the Editor window.
+2. Generate sprite asset appropriately, i.e. generate it in the currently selected folder in the Editor window. Sometimes this may not work, you might have to find in other asset folders to find the created sprite.
 3. Enhance Editor UI.
